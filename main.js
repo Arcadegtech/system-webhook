@@ -39,6 +39,7 @@ setInterval(async () => {
                 embeds: [
                     {  color: Colors.White , title: `${os.hostname()}` ,
                     description: `Platform :  \`${os.platform()}\`\nRelease :  \`${os.release()}\`\nVersion :  \`${os.version()}\`\nCPU Model :  \`${os.cpus()[0].model}\``,
+                    thumbnail: { url: config.thumbnail },
                     fields: [
                         {  name: '\u200b', value: `\`\`\`CPU\`\`\``, inline: false, },
                         {   name: 'Total Usage %', value: `> ${Math.round(allvalues.get('cpuspeed').currentLoad * 100)/100}`, inline: true  },
@@ -78,6 +79,7 @@ setInterval(async () => {
                 embeds: [
                     {  color: Colors.White , title: `${os.hostname()}` ,
                     description: `Platform :  \`${os.platform()}\`\nRelease :  \`${os.release()}\`\nVersion :  \`${os.version()}\`\nCPU Model :  \`${os.cpus()[0].model}\``,
+                    thumbnail: { url: config.thumbnail },
                     fields: [
                         {  name: '\u200b', value: `\`\`\`CPU\`\`\``, inline: false, },
                         {   name: 'Total Usage %', value: `> ${Math.round(allvalues.get('cpuspeed').currentLoad * 100)/100}`, inline: true  },
