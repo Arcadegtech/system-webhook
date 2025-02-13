@@ -1,0 +1,26 @@
+{
+  "dependencies": {
+    "discord.js": "^14.18.0",
+    "sequelize": "^6.37.5",
+    "sqlite3": "^5.1.7",
+    "systeminformation": "^5.25.11"
+  },
+  "name": "system-information-webhook",
+  "version": "2.1.0",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "arcade09",
+  "license": "ISC",
+  "description": "info about vps",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arcadegtech/system-webhook.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Arcadegtech/system-webhook/issues"
+  },
+  "homepage": "https://github.com/Arcadegtech/system-webhook#readme"
+}

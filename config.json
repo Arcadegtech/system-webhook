@@ -1,0 +1,6 @@
+{
+    "webhookUrl": "",
+    "thumbnail": "https://i.imgur.com/gfl0e0t.png",
+    "maxRetries": 5,
+    "editTimer": 10
+}
